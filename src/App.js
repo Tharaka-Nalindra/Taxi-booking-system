@@ -17,7 +17,7 @@ import Addvehicle from './Components/AdminAddVehical/Addvehicle';
 import AdminAddDrives from './Components/AdminAddDrives/AdminAddDrives';
 import AdminAddClients from './Components/AdminAddClients/AdminAddClients';
 import AdminBokingDetails from './Components/AdminBokingDetails/AdminBokingDetails';
-import { BookingProvider } from './Components/BookingContext/BookingContext'; // Import the BookingProvider
+import { BookingProvider } from './Components/BookingContext/BookingContext';
 import CancelBooking from './Components/CancelBooking/CancelBooking';
 import AdminDashboad from './Components/AdminDashboad/AdminDashboad';
 import Admin from './Components/Admin/Admin';
@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <BookingProvider> {/* Wrap your app with BookingProvider */}
+        <BookingProvider> {/* .. */}
           <Routes>
             <Route path="/" element={<TaxiBooking />} />
             <Route path="/SignUp" element={<SignUp />} />
