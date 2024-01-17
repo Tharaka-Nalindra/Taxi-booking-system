@@ -1,24 +1,23 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Remove the import for useHistory
+import { Link } from "react-router-dom"; 
 import './LogInModule.css';
 import pagecar from "../image/pagecar.png";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { auth } from "../../firebase.js";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom"; 
 
 export default function LogIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
-  const navigate = useNavigate(); // Initialize the navigate function
+  const navigate = useNavigate(); 
 
   const signIn = async (e) => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      // Redirect to InputDetail page after successful login
       navigate("/CoustomerInput");
     } catch (err) {
       setError(err.message);
