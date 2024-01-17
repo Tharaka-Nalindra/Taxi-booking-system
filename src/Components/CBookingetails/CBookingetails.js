@@ -9,11 +9,9 @@ import { useNavigate } from "react-router-dom";
 
 export default function TaxiBooking(){
     const { arrival, destination, members, contact, vehicle, date, time } = useBooking();
-    const navigate = useNavigate(); // Get the navigate function
-
+    const navigate = useNavigate(); 
     const handleConfirmClick = () => {
-        // You can perform any necessary actions here before navigating
-        navigate("../CancelBooking"); // Navigate to the Home.js page
+        navigate("../CancelBooking"); 
     };
     return (
         <div>
