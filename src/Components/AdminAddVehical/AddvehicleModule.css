@@ -1,0 +1,112 @@
+body{
+    background-image: url("../image/bg.png");
+    font-family: kanban;
+}
+
+
+
+.PageCar img{
+    margin-top: 20vh;
+    align-items: center;
+    width: 80vh;
+    height: 50vh;
+    filter: brightness(40%);
+    position: relative; /* Add this */
+    z-index: 1;
+}
+
+.DashLink{
+    width: 15%;
+    height: 80vh;
+    background-color: rgba(164, 164, 165, 0.55);
+    margin: 20px;
+    float: left;
+    margin-top: -82.5vh;
+}
+
+.AddVehiclesDashBody{
+    width: 80%;
+    height: 80vh;
+    background-color: rgba(164, 164, 165, 0.55); 
+    margin: 20px;
+    float: right;
+    margin-top: 18vh;
+
+}
+
+.AddVehiclesDashBody h2{
+    color:rgb(202, 186, 6);
+    font-weight: bold;
+}
+
+
+
+.logo img{
+    float: left;
+}
+
+
+ul{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+    
+}
+
+.DashLink ul li {
+    margin-bottom: 20px;
+}
+
+.DashLink h3{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    margin-left: 20px;
+}
+
+
+.AddVehiclesDashBody button {
+    background-color: #000; 
+    color: rgb(202, 186, 6);
+    border-color: #000;
+    width: 15vh;
+    margin-left: 100vh;
+}
+.AddVehiclesTableContainer button {
+    background-color: #b21111; 
+    color: rgb(202, 186, 6);
+    border-color: #b21111;
+    width: 10vh;
+    margin: 0;
+}
+
+  /* Style the table headers */
+.AddVehiclesTableContainer{
+    margin-top: 8vh;
+}
+
+
+  .AddVehiclesTableContainer th {
+    background-color: rgba(0, 0, 0, 0.2); /* Set the header background color */
+    color: white; /* Set the header text color */
+    font-size: 20px;
+  }
+  
+  /* Style the table rows */
+  .AddVehiclesTableContainer tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1); /* Set the background color for even rows */
+  }
+  
+  .AddVehiclesTableContainer tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05); /* Set the background color for odd rows */
+  }
+  
+  /* Style table cells */
+  .AddVehiclesTableContainer td {
+    border: rgba(0, 0, 0, 0.2);  /* Add borders to cells */
+    padding: 8px; /* Add padding to cells */
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white;
+  }

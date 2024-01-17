@@ -1,0 +1,57 @@
+body{
+    background-image: url("../image/background.png");
+    font-family: kanban;
+}
+
+
+
+.PageCar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.p-5 h2{
+    color: #fff;
+}
+
+label{
+    color: #fff;
+    font-size: 20px;
+}
+
+.custom-button-Time {
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .custom-button-Time input[type="date"] {
+    /* Add margin-right to create a 20px gap between date and time inputs */
+    /* margin-right: 20px; */
+  }
+  
+  .custom-button-Time input[type="time"] {
+    /* Alternatively, use margin-left to create the same 20px gap */
+    /* margin-left: 20px; */
+  }
+
+  .custom-button-Time {
+    background-color: rgba(164, 164, 165, 0.55); 
+    color: #fff;
+    border-color: #000; 
+    border-radius: 20px;
+    width: 15vh;
+    margin-top: 10vh;
+    margin-left: 40vh;
+} 
+
+
+.set{
+  margin-top: 20vh;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}

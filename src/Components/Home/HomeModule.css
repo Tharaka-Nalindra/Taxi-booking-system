@@ -1,0 +1,44 @@
+body{
+    background-image: url("../image/bg.png");
+    font-family: kanban;
+}
+
+
+.logo {
+    float: left;
+    margin-right: 20px; 
+}
+
+/* .SLlink {
+    float: right;
+}
+.SLlink h2{
+    display: inline-flex;
+    margin: 20px;
+    color: rgb(202, 186, 6);
+} */
+
+
+.PageCar img{
+    margin-top: 20vh;
+    align-items: center;
+    width: 80vh;
+    height: 50vh;
+    filter: brightness(40%);
+}
+
+.welcome h1{
+    color: rgb(202, 186, 6);
+    font-size: 80px;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 40vh;
+}
+
+.welcome a{
+    color: yellow;
+}

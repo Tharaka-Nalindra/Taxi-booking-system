@@ -1,0 +1,14 @@
+.bg-body-tertiary {
+  background-color: transparent !important; /* Use !important to ensure the style is applied */
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    margin-left: 60px;
+    font-size: 20px;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+  }

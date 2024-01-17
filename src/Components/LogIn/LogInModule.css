@@ -1,0 +1,70 @@
+body{
+    background-image: url("../image/background.png");
+    font-family: kanban;
+}
+
+.formBody{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.LogInPageCar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.LogInformBody{
+    margin-top: 15vh;
+}
+
+.LogInformBody h2{
+    margin-bottom: 10vh;
+    color: rgb(202, 186, 6);
+    font-weight: bold;
+    margin-left: 15vh;
+}
+
+.LogInformBody input[type="text"],
+.LogInformBody input[type="email"],
+.LogInformBody input[type="password"] {
+  background-color: rgba(164, 164, 165, 0.55);
+  height: 35px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 40vh;
+  margin-bottom: 40px;
+  border: 1px solid #0d0c0c;
+}
+
+.LogInformBody input::placeholder {
+    color: #efe9e9;
+}
+
+
+
+.LogIn-custom-button {
+    background-color: rgba(164, 164, 165, 0.55); 
+    color: #fff;
+    border-color: #000; 
+    border-radius: 20px;
+    width: 15vh;
+    margin-left: 12vh;
+} 
+
+ .LogIn-custom-button:hover {
+    background-color: rgba(90, 90, 91, 0.55); 
+    border-color: #000; 
+  }
+
+  .LogInformBody p{
+    margin-top: 5vh;
+  }
+
+
+.LogInformBody p,a{
+    color: blue;
+}

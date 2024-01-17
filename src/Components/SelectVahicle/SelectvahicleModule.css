@@ -1,0 +1,58 @@
+body{
+    background-image: url("../image/background.png");
+    font-family: kanban;
+}
+
+
+.logo {
+    float: left;
+    margin-right: 20px; 
+}
+
+
+
+.PageCar img{
+    margin-top: 20vh;
+    align-items: center;
+    width: 80vh;
+    height: 50vh;
+    filter: brightness(40%);
+}
+
+
+
+.SelectVahicleForm{
+    color: aliceblue;
+    margin-top: 10vh;
+}
+
+form h2{
+    color: #fff;
+    margin: 60px;
+}
+
+.SelectVahicleForm input{
+   margin: 40px;
+   margin-top: 10vh;
+}
+
+label .catagory{
+    width: 100px;
+    height: 90px;
+    filter: brightness(100%);
+    margin-left: 10vh;
+}
+
+.custom-button {
+    background-color: rgba(164, 164, 165, 0.55); 
+    color: #fff;
+    border-color: #000; 
+    border-radius: 20px;
+    width: 15vh;
+    margin-top: 10vh;
+    margin-left: 100vh;
+} 
+
+.custom-input{
+    margin-left: 20vh;
+}
