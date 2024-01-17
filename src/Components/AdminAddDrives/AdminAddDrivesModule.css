@@ -11,7 +11,7 @@ body{
     width: 80vh;
     height: 50vh;
     filter: brightness(40%);
-    position: relative; /* Add this */
+    position: relative; 
     z-index: 1;
 }
 
@@ -82,7 +82,7 @@ ul{
     margin: 0;
 }
 
-  /* Style the table headers */
+ 
 .AdminAddDrivesTableContainer{
     margin-top: 8vh;
     /* display: flex; */
@@ -92,24 +92,24 @@ ul{
 
 
   .AdminAddDrivesTableContainer th {
-    background-color: rgba(0, 0, 0, 0.2); /* Set the header background color */
-    color: white; /* Set the header text color */
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white; 
     font-size: 20px;
   }
   
-  /* Style the table rows */
+ 
   .AdminAddDrivesTableContainer tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.1); /* Set the background color for even rows */
+    background-color: rgba(0, 0, 0, 0.1); 
   }
   
   .AdminAddDrivesTableContainer tr:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.05); /* Set the background color for odd rows */
+    background-color: rgba(0, 0, 0, 0.05); 
   }
   
-  /* Style table cells */
+ 
   .AdminAddDrivesTableContainer td {
-    border: rgba(0, 0, 0, 0.2);  /* Add borders to cells */
-    padding: 8px; /* Add padding to cells */
+    border: rgba(0, 0, 0, 0.2);  
+    padding: 8px; 
     background-color: rgba(0, 0, 0, 0.2); 
     color: white;
   }
