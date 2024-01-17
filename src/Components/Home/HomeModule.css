@@ -9,14 +9,7 @@ body{
     margin-right: 20px; 
 }
 
-/* .SLlink {
-    float: right;
-}
-.SLlink h2{
-    display: inline-flex;
-    margin: 20px;
-    color: rgb(202, 186, 6);
-} */
+
 
 
 .PageCar img{
@@ -34,8 +27,8 @@ body{
 
 .welcome{
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
     margin-top: 40vh;
 }
 
