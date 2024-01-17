@@ -13,11 +13,11 @@ import Table from 'react-bootstrap/Table';
 
 export default function TaxiBooking(){
     const { arrival, destination, members, contact, vehicle, date, time } = useBooking();
-    const navigate = useNavigate(); // Get the navigate function
+    const navigate = useNavigate(); 
 
     const handleHomeclick = () => {
-        // You can perform any necessary actions here before navigating
-        navigate("/Home"); // Navigate to the Home.js page
+        
+        navigate("/Home"); 
     };
     return (
         <div>
