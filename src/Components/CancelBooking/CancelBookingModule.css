@@ -9,14 +9,7 @@ body{
     margin-right: 20px; 
 }
 
-/* .SLlink {
-    float: right;
-}
-.SLlink h2{
-    display: inline-flex;
-    margin: 20px;
-    color: rgb(202, 186, 6);
-} */
+
 
 
 .PageCar img{
@@ -66,25 +59,25 @@ body{
 
 
 .CancelTable th {
-    background-color: rgba(0, 0, 0, 0.2); /* Set the header background color */
-    color: white; /* Set the header text color */
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white; 
     
   }
   
-  /* Style the table rows */
+ 
   .CancelTable tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.1); /* Set the background color for even rows */
+    background-color: rgba(0, 0, 0, 0.1); 
   }
   
   .CancelTable tr:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.05); /* Set the background color for odd rows */
+    background-color: rgba(0, 0, 0, 0.05); 
   }
   
-  /* Style table cells */
+
   .CancelTable td {
-    border: rgba(0, 0, 0, 0.2);  /* Add borders to cells */
-    text-align: left; /* Align cell text to the left */
-    padding: 8px; /* Add padding to cells */
+    border: rgba(0, 0, 0, 0.2);  
+    text-align: left; 
+    padding: 8px;
     background-color: rgba(0, 0, 0, 0.2); 
     color: white;
   }
