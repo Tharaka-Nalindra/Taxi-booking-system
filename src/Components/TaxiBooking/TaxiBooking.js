@@ -16,9 +16,6 @@ export default function TaxiBooking(){
                 <h2><Link to="/LogIn">LogIn</Link></h2>
             </div>
 
-            {/* <div className="PageCar">
-                <img src={pagecar} alt="car"></img>
-            </div> */}
 
             <div className="welcome">
                 <h1>Welcome!</h1>
