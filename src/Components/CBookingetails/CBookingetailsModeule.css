@@ -18,20 +18,18 @@ body{
 }
 
 
-/* InputDetailsModule.css */
 
-/* Style the table container */
 .InputTableContainer {
     width: 50vh;
     height: 50vh;
-    background-color: rgba(0, 0, 0, 0.2); /* Adjust the transparency as needed */
+    background-color: rgba(0, 0, 0, 0.2); 
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 50vh;
   }
   
-  /* Style the table */
+ 
 
   
   .InputTableContainer table {
@@ -40,26 +38,26 @@ body{
     /* margin-left: 10vh; */
   }
   
-  /* Style the table headers */
+ 
   .InputTableContainer th {
-    background-color: rgba(0, 0, 0, 0.2); /* Set the header background color */
-    color: white; /* Set the header text color */
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white;
   }
   
-  /* Style the table rows */
+ 
   .InputTableContainer tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.1); /* Set the background color for even rows */
+    background-color: rgba(0, 0, 0, 0.1); 
   }
   
   .InputTableContainer tr:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.05); /* Set the background color for odd rows */
+    background-color: rgba(0, 0, 0, 0.05); 
   }
   
-  /* Style table cells */
+  
   .InputTableContainer td {
-    border: rgba(0, 0, 0, 0.2);  /* Add borders to cells */
-    text-align: left; /* Align cell text to the left */
-    padding: 8px; /* Add padding to cells */
+    border: rgba(0, 0, 0, 0.2);  
+    text-align: left;
+    padding: 8px;
     background-color: rgba(0, 0, 0, 0.2); 
     color: white;
   }
