@@ -1,8 +1,6 @@
 import React from "react";
 import "./AdminDashboadModule.css";
-// import pagecar from "../image/pagecar.png";
 import logo from '../image/logo.png'
-// import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
