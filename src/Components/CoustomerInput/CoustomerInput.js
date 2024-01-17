@@ -23,9 +23,7 @@ export default function BookingDetails() {
     setVehicle: setBookingVehicle } = useBooking();
 
   const handleNextClick = () => {
-    // You can perform any necessary validation here
-
-    // Redirect to Timedate page after clicking "Next"
+    
     setBookingArrival(Arrival);
     setBookingDestination(Destination);
     setBookingMembers(Members)
