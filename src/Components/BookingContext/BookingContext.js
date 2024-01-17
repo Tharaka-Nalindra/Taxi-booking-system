@@ -1,11 +1,10 @@
-// BookingContext.js
 import React, { createContext, useContext, useState } from "react";
 
 const BookingContext = createContext();
 
 export function BookingProvider({ children }) {
-  const [arrival, setArrival] = useState(""); // Change to "arrival" (lowercase) for consistency
-  const [destination, setDestination] = useState(""); // Added destination
+  const [arrival, setArrival] = useState(""); 
+  const [destination, setDestination] = useState(""); 
   const [members, setMembers] = useState("");
   const [contact, setContact] = useState(""); 
   const [vehicle, setVehicle] = useState(""); 
