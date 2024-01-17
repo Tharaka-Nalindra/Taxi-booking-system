@@ -19,7 +19,6 @@ export default function SetTime() {
 
   const handleNextClick = () => {
     setNextClicked(true);
-    // You can perform further actions here when the "Next" button is clicked.
     navigate("../CBookingetails");
   };
 
