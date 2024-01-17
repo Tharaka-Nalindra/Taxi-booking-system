@@ -81,7 +81,7 @@ ul{
     margin: 0;
 }
 
-  /* Style the table headers */
+
 .AddclientTableContainer{
     margin-top: 8vh;
     /* margin-left: 10vh; */
@@ -89,23 +89,23 @@ ul{
 
 
   .AddclientTableContainer th {
-    background-color: rgba(0, 0, 0, 0.2); /* Set the header background color */
-    color: white; /* Set the header text color */
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white;
     font-size: 20px;
   }
   
-  /* Style the table rows */
+  
   .AddclientTableContainer tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.1); /* Set the background color for even rows */
+    background-color: rgba(0, 0, 0, 0.1); 
   }
   
   .AddclientTableContainer tr:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.05); /* Set the background color for odd rows */
+    background-color: rgba(0, 0, 0, 0.05); 
   }
   
-  /* Style table cells */
+  
   .AddclientTableContainer td {
-    border: rgba(0, 0, 0, 0.2);  /* Add borders to cells */
+    border: rgba(0, 0, 0, 0.2);  
     padding: 8px; 
     background-color: rgba(0, 0, 0, 0.2); 
     color: white;
