@@ -29,13 +29,11 @@ label{
 
   
   .custom-button-Time input[type="date"] {
-    /* Add margin-right to create a 20px gap between date and time inputs */
-    /* margin-right: 20px; */
+   
   }
   
   .custom-button-Time input[type="time"] {
-    /* Alternatively, use margin-left to create the same 20px gap */
-    /* margin-left: 20px; */
+    
   }
 
   .custom-button-Time {
