@@ -11,7 +11,7 @@ body{
     width: 80vh;
     height: 50vh;
     filter: brightness(40%);
-    position: relative; /* Add this */
+    position: relative; 
     z-index: 1;
 }
 
