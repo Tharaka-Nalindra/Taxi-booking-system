@@ -14,22 +14,18 @@ export default function TaxiBooking() {
   const navigate = useNavigate();
 
   const handleBookingClick = () => {
-    // Navigate to the Booking component
     navigate("../AdminAddVehical");
   };
 
   const handleClientsClick = () => {
-    // Navigate to the Clients component
     navigate("../AdminAddClients");
   };
 
   const handleVehicleClick = () => {
-    // Navigate to the Vehicle component
     navigate("../AdminAddVehical");
   };
 
   const handleDriversClick = () => {
-    // Navigate to the Drivers component
     navigate("../AdminAddDrives");
   };
 
